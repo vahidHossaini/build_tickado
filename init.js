@@ -1,5 +1,6 @@
 var getCopy=function(data)
 {
+  if(!data)return null;
   return JSON.parse(JSON.stringify(data))
 }  
 
